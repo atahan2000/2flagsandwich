@@ -19,6 +19,7 @@ def SECONDflagsandwich(values, flag1 = 0, flag2 = 1):
 f1 = 2
 f2 = 5
 
+
 x = np.linspace(start=1, stop=30.0, num=100)
 y1 = FIRSTflagsandwich(values=x,flag1=f1,flag2=f2)
 y2 = SECONDflagsandwich(values=x,flag1=f1,flag2=f2)
