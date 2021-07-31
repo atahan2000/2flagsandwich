@@ -2,7 +2,6 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 
-
 def FIRSTflagsandwich(values, flag1 = 0, flag2 = 1):
     while np.any(abs(flag2-flag1)>0.0001):
         flag1 += np.divide(np.abs(flag1-flag2),values)
